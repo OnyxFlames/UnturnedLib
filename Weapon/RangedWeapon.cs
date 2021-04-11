@@ -9,8 +9,8 @@ namespace UnturnedLib.Weapon
         public FireMode FireModes { get; set; }
         // rounds per second
         public float FireRate { get; set; }
-        // maybe multiple?
-        public int DefaultAttachment { get; set; }
+        // attachments that come with the gun
+        public List<int> DefaultAttachments { get; set; }
         // list of ID's
         public List<int> BarrelAttachments { get; set; }
         public List<int> GripAttachments { get; set; }

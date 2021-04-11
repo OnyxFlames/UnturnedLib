@@ -6,6 +6,7 @@ namespace UnturnedLib.Weapon
 {
     public class Weapon : InventoryItem
     {
+        public WeaponType WeaponType { get; set; }
         public Rarity Rarity { get; set; }
         // is item able to be secondary?
         public bool Secondary { get; set; }
